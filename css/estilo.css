@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: grey; }
+
+header {
+  background-color: #09ffff; }
+  header h1 {
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif; }
+
+section {
+  background-color: yellowgreen; }
+  section h2 {
+    color: blue;
+    text-align: center; }
+  section p {
+    color: blueviolet;
+    font-size: 1rem; }
+
+footer {
+  background-color: #09ffff;
+  font-size: 0.5rem;
+  margin-top: 0.5rem; }
