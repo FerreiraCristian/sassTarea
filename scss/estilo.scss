@@ -1,5 +1,50 @@
-$bg_topBot: #09ffff;
-@import "body";
-@import "header";
-@import "section";
-@import "footer";
+$bg_background: #cacaca;
+$bgcaja1: #9aff7b;
+$bgcaja2: #6cfaf3;
+$bgcaja3: #f5a1f1;
+$subt: #770202;
+$text: #332727;
+@mixin cajas ($bgcaja) {
+    background-color: $bgcaja;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 1rem;
+    h2 {
+        color: $subt;
+    }
+    p {
+        color: $text;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $bg_background;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+footer,
+header {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    color: $subt;
+    height: 40px;
+}
+
+.productos {
+    @include cajas ($bgcaja1)
+}
+
+.servicios {
+    @include cajas ($bgcaja2)
+}
+
+.nosotros {
+    @include cajas ($bgcaja3)
+}

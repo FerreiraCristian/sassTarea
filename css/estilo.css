@@ -4,25 +4,43 @@
   box-sizing: border-box; }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: grey; }
+  background-color: #cacaca;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
 
+footer,
 header {
-  background-color: #09ffff; }
-  header h1 {
-    color: whitesmoke;
-    font-family: Arial, Helvetica, sans-serif; }
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 30px;
+  color: #770202;
+  height: 40px; }
 
-section {
-  background-color: yellowgreen; }
-  section h2 {
-    color: blue;
-    text-align: center; }
-  section p {
-    color: blueviolet;
-    font-size: 1rem; }
+.productos {
+  background-color: #9aff7b;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 1rem; }
+  .productos h2 {
+    color: #770202; }
+  .productos p {
+    color: #332727; }
 
-footer {
-  background-color: #09ffff;
-  font-size: 0.5rem;
-  margin-top: 0.5rem; }
+.servicios {
+  background-color: #6cfaf3;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 1rem; }
+  .servicios h2 {
+    color: #770202; }
+  .servicios p {
+    color: #332727; }
+
+.nosotros {
+  background-color: #f5a1f1;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 1rem; }
+  .nosotros h2 {
+    color: #770202; }
+  .nosotros p {
+    color: #332727; }
