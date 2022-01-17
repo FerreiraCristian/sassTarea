@@ -1,11 +1,14 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
 
 body {
   background-color: #cacaca;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
 footer,
 header {
@@ -13,34 +16,51 @@ header {
   padding-top: 5px;
   padding-bottom: 30px;
   color: #770202;
-  height: 40px; }
+  height: 40px;
+}
 
 .productos {
   background-color: #9aff7b;
   border-radius: 5px;
   padding: 1rem;
-  margin: 1rem; }
-  .productos h2 {
-    color: #770202; }
-  .productos p {
-    color: #332727; }
+  margin: 1rem;
+}
+
+.productos h2 {
+  color: #770202;
+}
+
+.productos p {
+  color: #332727;
+}
 
 .servicios {
   background-color: #6cfaf3;
   border-radius: 5px;
   padding: 1rem;
-  margin: 1rem; }
-  .servicios h2 {
-    color: #770202; }
-  .servicios p {
-    color: #332727; }
+  margin: 1rem;
+}
+
+.servicios h2 {
+  color: #770202;
+}
+
+.servicios p {
+  color: #332727;
+}
 
 .nosotros {
   background-color: #f5a1f1;
   border-radius: 5px;
   padding: 1rem;
-  margin: 1rem; }
-  .nosotros h2 {
-    color: #770202; }
-  .nosotros p {
-    color: #332727; }
+  margin: 1rem;
+}
+
+.nosotros h2 {
+  color: #770202;
+}
+
+.nosotros p {
+  color: #332727;
+}
+/*# sourceMappingURL=estilo.css.map */
